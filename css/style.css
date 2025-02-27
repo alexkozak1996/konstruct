@@ -1,8 +1,4 @@
 /* Стилизация шапки сайта */
-.header {
-  
-}
-
 .header__cover {
   background-image: url(../image/bg.png);
   background-position: center;
@@ -461,9 +457,6 @@
   justify-content: space-between;
 }
 
-.footer__list {
-}
-
 .footer__list-item {
   text-transform: uppercase;
   list-style: none;
@@ -475,7 +468,8 @@
   text-align: left
 }
 
-.contacts {
+.footer__list-item a{
+  text-decoration: none;
 }
 
 .footer__address {
